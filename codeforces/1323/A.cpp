@@ -58,22 +58,24 @@ void solve() {
     ll n;
     cin>>n;
     ll arr[n];
-    bool check = false;
-    ll index = -1;
-    for(int i=0;i<n;++i) {
-        int x;
-        cin>>x;
-        if(!check && x%2 == 0) {
-            check = true;
-            index = i+1;
+    for(int i=0;i<n;++i)
+        cin>>arr[i];
+    if(n == 1 && arr[0]%2 != 0)
+        cout<<-1<<endl;
+    else if(arr[0] %2 == 1) {
+        if(arr[1] % 2 == 1) {
+            cout<<2<<endl;
+            cout<<1<<' '<<2<<endl;
+        }
+        else {
+            cout<<1<<endl;
+            cout<<2<<' '<<endl;
         }
     }
-    if(n == 1 && !check) 
-        cout<<-1<<endl;
-    else if(check) 
-        cout<<1<<'\n'<<index<<endl;
-    else 
-        cout<<"2\n1 2"<<endl;
+    else {
+        cout<<1<<endl;
+        cout<<1<<endl;
+    }
 }
 
 
