@@ -53,37 +53,40 @@ ll lcm(ll a, ll b) {
     return (a / gcd(a, b)) * b;
 }
   
-bool myComp(int x , int y) {
+bool myComp(ll x , ll y) {
     if(x%2 == 1 && y%2==0)
-        return false;
-    else if(x%2 == 0 && y%2==0)
-        return false ;
-    else if(x%2 == 1 && y%2==1)
         return false;
     else 
         return true;
 }
 
 void solve() {
-    int n;
+    ll n;
     cin>>n;
-    int arr[n];
+    vector<ll> arr;
     for(int i = 0;i<n;i++) {
-        cin>>arr[i];
+        ll x;
+        cin>>x;
+        arr.push_back(x);
     }
-    sort(arr,arr+n,myComp);
-    int count = 0;
-    int i = 0;
+    for (ll i = 0; i < n-1; i++)    
+    for (ll j = 0; j < n-i-1; j++)
+        if (!myComp(arr[j], arr[j+1]))
+            swap(arr[j], arr[j+1]);
+
+    ll count = 0;
+    ll i = 0;
     for(;i<n;i++) {
         if(arr[i]%2 == 0) 
             count += n-i-1;
         else 
             break;
     }
-    for(;i<n-1;i++) {
-        for(int j = i+1;j<n;j++) {
-            if(gcd(arr[i],arr[j]) > 1) 
+    for(ll k = i;k<n-1;k++) {
+        for(ll j = k+1;j<n;j++) {
+            if(gcd(arr[k],arr[j] )> 1) {
                 count++;
+            }
         }
     }
     cout<<count<<endl;
