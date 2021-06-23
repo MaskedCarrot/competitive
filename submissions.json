@@ -1,4 +1,19 @@
 {
+  "CF120347835": {
+    "contest_id": 1532,
+    "language": "Kotlin 1.4",
+    "path": "codeforces\\1532\\A.kt",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "A+B (Trial Problem)",
+    "problem_url": "https://codeforces.com/contest/1532/problem/A",
+    "submission_id": "CF120347835",
+    "submission_url": "https://codeforces.com/contest/1532/submission/120347835",
+    "tags": [
+      "*special problem"
+    ],
+    "timestamp": "Jun/23/2021 13:23"
+  },
   "CF129178244": {
     "contest_id": 1573,
     "language": "GNU C++17",
