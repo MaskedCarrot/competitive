@@ -1,4 +1,22 @@
 {
+  "CF129951627": {
+    "contest_id": 1506,
+    "language": "GNU C++17",
+    "path": "codeforces\\1506\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Epic Transformation",
+    "problem_url": "https://codeforces.com/contest/1506/problem/D",
+    "submission_id": "CF129951627",
+    "submission_url": "https://codeforces.com/contest/1506/submission/129951627",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Sep/27/2021 00:20"
+  },
   "CF129970456": {
     "contest_id": 1343,
     "language": "GNU C++17",
