@@ -57,10 +57,14 @@ void solve() {
 
     int up;
     int lo;
+    int a1 = n-1;
+    while (!isPerfectSquare(a1)) {
+        a1--;
+    }
 
-    up = sqrt(n)+1;
-    lo = up-1;
-    int ct = pow(lo,2);
+    up = sqrt(a1)+1;
+    lo = sqrt(a1);
+    int ct = a1;
     for (int i = 1;i<=up;i++) {
         //cout<<"1-=---"<<ct<<endl;
         ct++;
