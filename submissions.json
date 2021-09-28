@@ -1,4 +1,21 @@
 {
+  "CF130100552": {
+    "contest_id": 1579,
+    "language": "GNU C++17",
+    "path": "codeforces\\1579\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Casimir's String Solitaire",
+    "problem_url": "https://codeforces.com/contest/1579/problem/A",
+    "submission_id": "CF130100552",
+    "submission_url": "https://codeforces.com/contest/1579/submission/130100552",
+    "tags": [
+      "math",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/28/2021 20:08"
+  },
   "CF130156076": {
     "contest_id": 1579,
     "language": "GNU C++17",
