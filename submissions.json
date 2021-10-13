@@ -1,4 +1,21 @@
 {
+  "CF131715297": {
+    "contest_id": 1594,
+    "language": "GNU C++17",
+    "path": "codeforces\\1594\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Special Numbers",
+    "problem_url": "https://codeforces.com/contest/1594/problem/B",
+    "submission_id": "CF131715297",
+    "submission_url": "https://codeforces.com/contest/1594/submission/131715297",
+    "tags": [
+      "bitmasks",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Oct/13/2021 13:58"
+  },
   "CF131933261": {
     "contest_id": 1593,
     "language": "GNU C++17",
