@@ -1,4 +1,21 @@
 {
+  "CF131933261": {
+    "contest_id": 1593,
+    "language": "GNU C++17",
+    "path": "codeforces\\1593\\D1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "All are Same",
+    "problem_url": "https://codeforces.com/contest/1593/problem/D1",
+    "submission_id": "CF131933261",
+    "submission_url": "https://codeforces.com/contest/1593/submission/131933261",
+    "tags": [
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Oct/14/2021 17:42"
+  },
   "CF132003158": {
     "contest_id": 1593,
     "language": "GNU C++17",
