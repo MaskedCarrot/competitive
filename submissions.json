@@ -1,4 +1,20 @@
 {
+  "AC26550962": {
+    "contest_id": "abc070",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc070\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Multiple Clocks",
+    "problem_url": "https://atcoder.jp/contests/abc070/tasks/abc070_c",
+    "submission_id": "AC26550962",
+    "submission_url": "https://atcoder.jp/contests/abc070/submissions/26550962",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/14/2021 14:07"
+  },
   "AC26638978": {
     "contest_id": "abc223",
     "language": "C++ (GCC 9.2.1)",
