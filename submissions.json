@@ -1,4 +1,21 @@
 {
+  "CF135341534": {
+    "contest_id": 1607,
+    "language": "GNU C++14",
+    "path": "codeforces\\1607\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Linear Keyboard",
+    "problem_url": "https://codeforces.com/contest/1607/problem/A",
+    "submission_id": "CF135341534",
+    "submission_url": "https://codeforces.com/contest/1607/submission/135341534",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Nov/14/2021 11:16"
+  },
   "CF135342177": {
     "contest_id": 1607,
     "language": "GNU C++14",
