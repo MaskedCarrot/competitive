@@ -1,4 +1,22 @@
 {
+  "CF135367113": {
+    "contest_id": 1589,
+    "language": "GNU C++14",
+    "path": "codeforces\\1589\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Two Arrays",
+    "problem_url": "https://codeforces.com/contest/1589/problem/C",
+    "submission_id": "CF135367113",
+    "submission_url": "https://codeforces.com/contest/1589/submission/135367113",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Nov/14/2021 12:25"
+  },
   "CF140750753": {
     "contest_id": 630,
     "language": "GNU C++14",
