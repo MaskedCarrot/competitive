@@ -1,4 +1,21 @@
 {
+  "CF141484037": {
+    "contest_id": 1616,
+    "language": "GNU C++14",
+    "path": "codeforces\\1616\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Mirror in the String",
+    "problem_url": "https://codeforces.com/contest/1616/problem/B",
+    "submission_id": "CF141484037",
+    "submission_url": "https://codeforces.com/contest/1616/submission/141484037",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Jan/03/2022 17:48"
+  },
   "CF141515796": {
     "contest_id": 1621,
     "language": "GNU C++14",
