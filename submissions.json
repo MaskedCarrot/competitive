@@ -1,4 +1,20 @@
 {
+  "CF143977819": {
+    "contest_id": 1619,
+    "language": "GNU C++14",
+    "path": "codeforces\\1619\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Wrong Addition",
+    "problem_url": "https://codeforces.com/contest/1619/problem/C",
+    "submission_id": "CF143977819",
+    "submission_url": "https://codeforces.com/contest/1619/submission/143977819",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jan/25/2022 19:01"
+  },
   "CF144287027": {
     "contest_id": 1631,
     "language": "GNU C++14",
