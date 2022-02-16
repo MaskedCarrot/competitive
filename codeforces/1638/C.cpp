@@ -88,7 +88,7 @@ void solve() {
 
     stack<int> s;
 
-    for (int i =0;i<n;i++) {
+    for (int i =00;i<n;i++) {
         int x;
         cin>>x;
         if (s.empty() || s.top() < x) {
