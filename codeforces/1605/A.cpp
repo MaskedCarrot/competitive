@@ -43,7 +43,19 @@ typedef long long int ll;
 //#define TEST
 
 
-
+ll power(ll x, ll y) {
+    ll res = 1;
+    
+    while (y) {
+        if (y % 2 == 1)
+            res = res * x%mod;
+       
+        y = y/2;
+       
+        x = (x * x)%mod;
+    }
+    return res;
+}
 
 bool isPerfectSquare(ll x) {
     ll left = 1, right = x;
