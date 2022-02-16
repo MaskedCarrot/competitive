@@ -87,11 +87,13 @@ void solve() {
     cin>>n;
 
     stack<int> s;
+    int x; cin>>x;
+    s.push(x);
+    int c =1;
 
-    for (int i =00;i<n;i++) {
-        int x;
+    for (int i =1;i<n;i++) {
         cin>>x;
-        if (s.empty() || s.top() < x) {
+        if (s.top() < x) {
             s.push(x);
         } else {
             int ma = s.top();
