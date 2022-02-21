@@ -98,29 +98,16 @@ void solve() {
 
     if (sorted) {
         cout<<0<<endl;
-        return;
-    } else if (n == 2) {
+    } else if (n == 2 || arr[n-2] > arr[n-1]) {
+        cout<<-1<<endl;
+    } else if (arr[n-1] >= 0) {
+        cout<<n-2<<endl;
+        for (int i = 0;i<n-2;i++) {
+            cout<<i+1<<' '<<n-1<<' '<<n<<endl;
+        }
+    } else {
         cout<<-1<<endl;
     }
-
-    if (arr[n-1] < 0 && arr[n-2] < 0) {
-        cout<<-1<<endl;
-    } else if (arr[n-2] >= 0 && arr[n-1] < 0) {
-        cout<<-1<<endl;
-    } else {
-        if (
-            (arr[n-2] < 0 && arr[n-1] >= 0) ||
-            (arr[n-1] >= 0 && arr[n-2] >= 0 && arr[n-1] >= arr[n-2])
-            ) {
-                cout<<n-2<<endl;
-                for (int i =0;i<n-2;i++) {
-                    cout<<i+1<<' '<<n-2+1<<' '<<n<<endl;
-                }
-        } else {
-            cout<<-1<<endl;
-        }
-    } 
-
     
 }
 
