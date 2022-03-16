@@ -1,4 +1,25 @@
 {
+  "CF149846633": {
+    "contest_id": 1648,
+    "language": "GNU C++17",
+    "path": "codeforces\\1648\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Weird Sum",
+    "problem_url": "https://codeforces.com/contest/1648/problem/A",
+    "submission_id": "CF149846633",
+    "submission_url": "https://codeforces.com/contest/1648/submission/149846633",
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "geometry",
+      "math",
+      "matrices",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Mar/16/2022 23:05"
+  },
   "CF149847880": {
     "contest_id": 1641,
     "language": "GNU C++17",
