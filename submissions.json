@@ -1,4 +1,22 @@
 {
+  "CF151115587": {
+    "contest_id": 1658,
+    "language": "GNU C++17",
+    "path": "codeforces\\1658\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Marin and Photoshoot",
+    "problem_url": "https://codeforces.com/contest/1658/problem/A",
+    "submission_id": "CF151115587",
+    "submission_url": "https://codeforces.com/contest/1658/submission/151115587",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/27/2022 20:19"
+  },
   "CF151123279": {
     "contest_id": 1658,
     "language": "GNU C++17",
