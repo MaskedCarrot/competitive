@@ -1,4 +1,20 @@
 {
+  "CF156047468": {
+    "contest_id": 1675,
+    "language": "GNU C++17",
+    "path": "codeforces\\1675\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Detective Task",
+    "problem_url": "https://codeforces.com/contest/1675/problem/C",
+    "submission_id": "CF156047468",
+    "submission_url": "https://codeforces.com/contest/1675/submission/156047468",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "May/06/2022 12:18"
+  },
   "CF156204077": {
     "contest_id": 1675,
     "language": "GNU C++17",
