@@ -86,37 +86,56 @@ ll lcm(ll a, ll b) {
 }
 
 void solve() {
-    int n, m;
+    int n,m;
     cin>>n>>m;
 
-    vector<vector<int>> v(n, vector<int>(m));
+    vector<vector<ll>> v(n, vector<ll>(m));
+
+    vector<vector<ll>> v1(n+1, vector<ll>(m+1, 0));
+    vector<vector<ll>> v2(n+1, vector<ll>(m+1, 0));
+    vector<vector<ll>> v3(n+1, vector<ll>(m+1, 0));
+    vector<vector<ll>> v4(n+1, vector<ll>(m+1, 0));
+
     for (int i=0;i<n;i++) {
         for (int j=0;j<m;j++) {
-            cin>>v[i][j];
+            int x;
+            cin>>x;
+            v[i][j] =x;
         }
     }
-
-    int ans = 0;
 
     for (int i=0;i<n;i++) {
         for (int j =0;j<m;j++) {
-            // cout<<"for i="<<i<<" and j = "<<j<<' ';
-            int t = 0;
-            for (int k=0;k<n;k++) {
-                for (int l=0;l<m;l++) {
-                    if (abs(k-i) == abs(l-j)) {
-                        t += v[k][l];
-                        // cout<<k<<' '<<l<<' ';
-                    }
-          
-                }
-            }
-            // cout<<endl;
-            ans = max(ans, t);
+            v1[i+1][j+1] = v[i][j] + v1[i][j];
+        }
+
+        for (int j = m-1;j>=0;j--) {
+            v2[i+1][j] = v[i][j] + v2[i][j+1];
         }
     }
 
+    for (int i=n-1;i>=0;i--) {
+        for (int j =0;j<m;j++) {
+            v3[i][j+1] = v[i][j] + v3[i+1][j];
+        }
+
+        for (int j = m-1;j>=0;j--) {
+            v4[i][j] = v[i][j] + v4[i+1][j+1];
+        }
+    }
+
+
+
+    ll ans = 0;
+    for (int i =0;i<n;i++) {
+        for (int j = 0;j<m;j++) {
+            ans = max(ans, v1[i+1][j+1]+v2[i+1][j]+v3[i][j+1]+v4[i][j]-v[i][j]-v[i][j]-v[i][j]);
+        }
+    }
+
+
     cout<<ans<<endl;
+
 }
 
 int main() {
