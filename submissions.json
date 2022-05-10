@@ -1,4 +1,20 @@
 {
+  "CF156611663": {
+    "contest_id": 1353,
+    "language": "GNU C++17",
+    "path": "codeforces\\1353\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Board Moves",
+    "problem_url": "https://codeforces.com/contest/1353/problem/C",
+    "submission_id": "CF156611663",
+    "submission_url": "https://codeforces.com/contest/1353/submission/156611663",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "May/10/2022 18:49"
+  },
   "CF156618760": {
     "contest_id": 1676,
     "language": "GNU C++17",
