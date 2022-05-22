@@ -5,10 +5,11 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-{profile_placeholder}
+* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/MaskedCarrot.svg)](https://codeforces.com/profile/MaskedCarrot)
+
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-{submission_placeholder}
+1 | [A - Prof. Slim](https://codeforces.com/contest/1670/problem/A) | [GNU C++17](./codeforces/1670/A.cpp) | `greedy` `implementation` `sortings` `*800` | May/22/2022 12:00 | 
