@@ -3916,6 +3916,24 @@
     ],
     "timestamp": "May/22/2022 12:00"
   },
+  "CF158237277": {
+    "contest_id": 1681,
+    "language": "GNU C++17",
+    "path": "codeforces\\1681\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Required Length",
+    "problem_url": "https://codeforces.com/contest/1681/problem/D",
+    "submission_id": "CF158237277",
+    "submission_url": "https://codeforces.com/contest/1681/submission/158237277",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "shortest paths"
+    ],
+    "timestamp": "May/24/2022 00:03"
+  },
   "CF86956630": {
     "contest_id": 1380,
     "language": "GNU C++17",
