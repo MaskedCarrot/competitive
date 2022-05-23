@@ -12,9 +12,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-245 | [D - Required Length](https://codeforces.com/contest/1681/problem/D) | [GNU C++17](./codeforces/1681/D.cpp) | `brute force` `dfs and similar` `dp` `shortest paths` | May/24/2022 00:03 | 
-244 | [C - Double Sort](https://codeforces.com/contest/1681/problem/C) | [GNU C++17](./codeforces/1681/C.cpp) | `implementation` | May/23/2022 20:41 | 
-243 | [B - Card Trick](https://codeforces.com/contest/1681/problem/B) | [GNU C++17](./codeforces/1681/B.cpp) | `implementation` `math` | May/23/2022 20:15 | 
+246 | [D - Required Length](https://codeforces.com/contest/1681/problem/D) | [GNU C++17](./codeforces/1681/D.cpp) | `brute force` `dfs and similar` `dp` `shortest paths` | May/24/2022 00:03 | 
+245 | [C - Double Sort](https://codeforces.com/contest/1681/problem/C) | [GNU C++17](./codeforces/1681/C.cpp) | `implementation` | May/23/2022 20:41 | 
+244 | [B - Card Trick](https://codeforces.com/contest/1681/problem/B) | [GNU C++17](./codeforces/1681/B.cpp) | `implementation` `math` | May/23/2022 20:15 | 
+243 | [A - Game with Cards](https://codeforces.com/contest/1681/problem/A) | [GNU C++17](./codeforces/1681/A.cpp) | `games` | May/23/2022 20:10 | 
 242 | [A - Prof. Slim](https://codeforces.com/contest/1670/problem/A) | [GNU C++17](./codeforces/1670/A.cpp) | `greedy` `implementation` `sortings` `*800` | May/22/2022 12:00 | 
 241 | [B - Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | [GNU C++17](./codeforces/1679/B.cpp) | `data structures` `implementation` `*1200` | May/14/2022 16:13 | 
 240 | [A - AvtoBus](https://codeforces.com/contest/1679/problem/A) | [GNU C++17](./codeforces/1679/A.cpp) | `brute force` `greedy` `math` `number theory` `*900` | May/14/2022 15:43 | 
