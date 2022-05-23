@@ -3916,6 +3916,22 @@
     ],
     "timestamp": "May/22/2022 12:00"
   },
+  "CF158162242": {
+    "contest_id": 1681,
+    "language": "GNU C++17",
+    "path": "codeforces\\1681\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Card Trick",
+    "problem_url": "https://codeforces.com/contest/1681/problem/B",
+    "submission_id": "CF158162242",
+    "submission_url": "https://codeforces.com/contest/1681/submission/158162242",
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "timestamp": "May/23/2022 20:15"
+  },
   "CF158184444": {
     "contest_id": 1681,
     "language": "GNU C++17",
