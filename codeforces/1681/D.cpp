@@ -107,10 +107,10 @@ int getDigitCount(ll x) {
     return c;
 }
 
-int checkAllOnes(ll x) {
+int checkAllOnesAddZeros(ll x) {
     while (x > 0) {
         int d = x%10;
-        if (x!=1) return false;
+        if (d != 0 && d != 1) return false;
         x /= 10;
     }
     return true;
@@ -120,7 +120,7 @@ void solve() {
     ll n, x;
     cin>>n>>x;  
     int ans = 0;
-    if (checkAllOnes(x)) {
+    if (checkAllOnesAddZeros(x)) {
         ans = -1;
     } else if (getDigitCount(x) == n) {
         ans = 0;
