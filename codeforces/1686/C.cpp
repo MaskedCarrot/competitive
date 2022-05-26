@@ -88,44 +88,50 @@ ll lcm(ll a, ll b) {
 void solve() {
     int n;
     cin>>n;
-    vector<int> v(n);
+    vector<int> v;
+    vin(v, n);
 
-    for (int i=0;i<n;i++) {
-        cin>>v[i];
-    }
     if (n%2 == 1) {
         no;
         return;
     } else {
         sort(all(v));
-
         int i = 0;
         int j = n/2;
+        int k = 0;
+        vector<int> ans(n);
         while (j < n) {
-            int a = i;
-            int b = i+1;
-            if (b == n/2) b = 0;
-            if (v[a] < v[j] && v[b] < v[j]) {
+            if (k%2 == 0) {
+                ans[k] = v[i];
                 i++;
-                j++;
             } else {
+                ans[k] = v[j];
+                j++;
+            }
+            k++;
+        }
+
+        if (ans[n-1] <= ans[0]) {
+            no;
+            return;
+        }
+
+    
+        for (int i =1;i<n-1;i+=2) {
+            if (ans[i] <= ans[i-1] || ans[i] <= ans[i+1]) {
                 no;
                 return;
             }
         }
 
-        
-
         yes;
-        i =0;
-        j = n/2;
-        while (j < n) {
-            cout<<v[i]<<' '<<v[j]<<' ';
-            i++;
-            j++;
+        for (int i=0;i<n;i++) {
+            cout<<ans[i]<<' ';
         }
         cout<<endl;
-    } 
+        
+    
+    }
 }
 
 int main() {
