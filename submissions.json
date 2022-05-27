@@ -4421,6 +4421,23 @@
     ],
     "timestamp": "May/24/2022 00:03"
   },
+  "CF158586448": {
+    "contest_id": 1674,
+    "language": "GNU C++17",
+    "path": "codeforces\\1674\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Dictionary",
+    "problem_url": "https://codeforces.com/contest/1674/problem/B",
+    "submission_id": "CF158586448",
+    "submission_url": "https://codeforces.com/contest/1674/submission/158586448",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/27/2022 12:12"
+  },
   "CF158586710": {
     "contest_id": 1674,
     "language": "GNU C++17",
