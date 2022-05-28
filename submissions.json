@@ -1,4 +1,20 @@
 {
+  "AC32009654": {
+    "contest_id": "abc253",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc253\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Distance Between Tokens",
+    "problem_url": "https://atcoder.jp/contests/abc253/tasks/abc253_b",
+    "submission_id": "AC32009654",
+    "submission_url": "https://atcoder.jp/contests/abc253/submissions/32009654",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/28/2022 17:39"
+  },
   "CF103120354": {
     "contest_id": 1399,
     "language": "GNU C++17",
