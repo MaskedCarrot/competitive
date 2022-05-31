@@ -4781,6 +4781,24 @@
     ],
     "timestamp": "May/29/2022 22:38"
   },
+  "CF159004873": {
+    "contest_id": 1691,
+    "language": "GNU C++17",
+    "path": "codeforces\\1691\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Shoe Shuffling",
+    "problem_url": "https://codeforces.com/contest/1691/problem/B",
+    "submission_id": "CF159004873",
+    "submission_url": "https://codeforces.com/contest/1691/submission/159004873",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "two pointers"
+    ],
+    "timestamp": "May/31/2022 20:20"
+  },
   "CF159065415": {
     "contest_id": 1691,
     "language": "GNU C++17",
