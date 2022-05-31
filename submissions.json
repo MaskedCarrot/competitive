@@ -4781,6 +4781,23 @@
     ],
     "timestamp": "May/29/2022 22:38"
   },
+  "CF158984899": {
+    "contest_id": 1691,
+    "language": "GNU C++17",
+    "path": "codeforces\\1691\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Beat The Odds",
+    "problem_url": "https://codeforces.com/contest/1691/problem/A",
+    "submission_id": "CF158984899",
+    "submission_url": "https://codeforces.com/contest/1691/submission/158984899",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "timestamp": "May/31/2022 20:06"
+  },
   "CF159004873": {
     "contest_id": 1691,
     "language": "GNU C++17",
