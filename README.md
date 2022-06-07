@@ -12,10 +12,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-298 | [E - Price Maximization](https://codeforces.com/contest/1690/problem/E) | [GNU C++17](./codeforces/1690/E.cpp) | `binary search` `greedy` `math` `two pointers` `*1500` | Jun/07/2022 21:23 | 
-297 | [D - Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | [GNU C++17](./codeforces/1690/D.cpp) | `implementation` `two pointers` `*1000` | Jun/07/2022 20:41 | 
-296 | [C - Restoring the Duration of Tasks](https://codeforces.com/contest/1690/problem/C) | [GNU C++17](./codeforces/1690/C.cpp) | `data structures` `greedy` `implementation` `*800` | Jun/07/2022 20:30 | 
-295 | [B - Array Decrements](https://codeforces.com/contest/1690/problem/B) | [GNU C++17](./codeforces/1690/B.cpp) | `greedy` `implementation` `*800` | Jun/07/2022 20:25 | 
+299 | [E - Price Maximization](https://codeforces.com/contest/1690/problem/E) | [GNU C++17](./codeforces/1690/E.cpp) | `binary search` `greedy` `math` `two pointers` `*1500` | Jun/07/2022 21:23 | 
+298 | [D - Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | [GNU C++17](./codeforces/1690/D.cpp) | `implementation` `two pointers` `*1000` | Jun/07/2022 20:41 | 
+297 | [C - Restoring the Duration of Tasks](https://codeforces.com/contest/1690/problem/C) | [GNU C++17](./codeforces/1690/C.cpp) | `data structures` `greedy` `implementation` `*800` | Jun/07/2022 20:30 | 
+296 | [B - Array Decrements](https://codeforces.com/contest/1690/problem/B) | [GNU C++17](./codeforces/1690/B.cpp) | `greedy` `implementation` `*800` | Jun/07/2022 20:25 | 
+295 | [A - Print a Pedestal (Codeforces logo?)](https://codeforces.com/contest/1690/problem/A) | [GNU C++17](./codeforces/1690/A.cpp) | `constructive algorithms` `greedy` `*800` | Jun/07/2022 20:14 | 
 294 | [C - Sum of Substrings](https://codeforces.com/contest/1691/problem/C) | [GNU C++17](./codeforces/1691/C.cpp) | `brute force` `constructive algorithms` `greedy` `math` `strings` | May/31/2022 21:42 | 
 293 | [B - Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | [GNU C++17](./codeforces/1691/B.cpp) | `constructive algorithms` `greedy` `implementation` `two pointers` | May/31/2022 20:20 | 
 292 | [A - Beat The Odds](https://codeforces.com/contest/1691/problem/A) | [GNU C++17](./codeforces/1691/A.cpp) | `constructive algorithms` `greedy` `math` | May/31/2022 20:06 | 
