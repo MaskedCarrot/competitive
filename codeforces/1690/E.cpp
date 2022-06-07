@@ -85,15 +85,55 @@ ll lcm(ll a, ll b) {
     return (a / __gcd(a, b)) * b;
 }
 
+ll K;
+
+static bool mySort(ll a, ll b) {
+    return a%K < b%K;
+}
+
 void solve() {
-    int n = 3;
-    vector<int> v;
-    int a, b, c;
-    vin(v, n);
-    b = v[1];
-    sort(all(v));
-    if (b == v[1]) cout<<"Yes"<<endl;
-    else cout<<"No"<<endl;
+    ll n, k;
+    cin>>n>>k;
+    K = k;
+    vector<ll> v1(n);
+
+    for (ll i=0;i<n;i++) {
+        cin>>v1[i];
+    }
+
+    sort(all(v1), mySort);
+
+    ll i = 0;
+    ll j = n-1;
+    ll ans = 0;
+    while (i < j) {
+        ll a1 = v1[i]%k;
+        ll a2 = v1[j]%k;
+        if (a1+a2 >= k) {
+            ans += (v1[i]+v1[j])/k;
+            v1[i] = -1;
+            v1[j] = -1;
+            i++;
+            j--;
+        } else {
+            i++;
+        }
+    }
+
+    sort(all(v1), greater<ll>());
+
+    i = 0;
+    while (i < n && v1[i] != -1) {
+      
+        ans += (v1[i]+v1[i+1])/k;
+        i += 2;
+    }
+
+
+
+    cout<<ans<<endl;
+
+
 }
 
 int main() {
@@ -107,7 +147,7 @@ int main() {
     cout.tie(0);
     ll t = 1;
     ll a = 1;
-    //cin >> t;
+    cin >> t;
     while (t--) {
         //std::cout << "Case #"<<a<<": ";
         a++;
